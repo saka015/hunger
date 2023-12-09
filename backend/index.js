@@ -1,20 +1,57 @@
-// index.js
-// Import the connect function from db.js
+// // index.js
+// import express from "express";
+// import connect from "./db.js";
+// import createUserRouter from "./Routes/CreateUser.js";
+// import displayData from "./Routes/DisplayData.js";
+
+// const app = express();
+
+// // Call the connect function to establish a connection to the database
+// connect();
+
+// app.use((req, res, next) => {
+//   res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+//   res.header(
+//     "Access-Control-Allow-Headers",
+//     "Origin,X-Requested-With,Content-Type,Accept"
+//   );
+//   next();
+// });
+
+// app.use(express.json());
+// app.use("/api", createUserRouter);
+// app.use("/api", displayData);
+
+// app.listen(5000, () => {
+//   console.log("Server is Working");
+// });
+
+
+// bard
+
 
 import express from "express";
 import connect from "./db.js";
-import createUser from "./Routes/CreateUser.js";
+import createUserRouter from "./Routes/CreateUser.js";
+import displayData from "./Routes/DisplayData.js";
+
 const app = express();
 
 // Call the connect function to establish a connection to the database
 connect();
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
 });
 
-app.use(express.json())
-app.use('/api/',createUser)
+app.use(express.json());
+app.use("/api", createUserRouter);
+app.use("/api", displayData);
 
 app.listen(5000, () => {
   console.log("Server is Working");

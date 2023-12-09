@@ -15,9 +15,9 @@ const Carousel = () => {
       <div className="carousel-inner" id="carousel-div">
         <div
           className="carousel-caption d-none d-md-block"
-          style={{ "z-index": "10" }}
+          style={{ "zIndex": "10" }}
         >
-          <form class="d-flex">
+          <form className="d-flex">
             <input
               className="form-control me-2"
               type="search"
