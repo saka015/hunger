@@ -18,3 +18,8 @@ footer {
 {
   max-height:500px;
 }
+
+.bold
+{
+  font-weight: 500 !important;
+}

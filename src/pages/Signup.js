@@ -42,6 +42,10 @@ const Signup = () => {
       alert("Enter valid credentials!");
     }
   };
+
+  const gotRegistered = () => {
+    alert("Registration Succesfull! Pls Login...");
+  };
   return (
     <>
       <div className="container mt-3">
@@ -96,7 +100,11 @@ const Signup = () => {
             />
           </div>
 
-          <button type="submit" className="btn btn-success m-3">
+          <button
+            type="submit"
+            className="btn btn-success m-3"
+            onClick={gotRegistered}
+          >
             Submit
           </button>
           <Link to="/login">

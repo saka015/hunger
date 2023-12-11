@@ -60,7 +60,7 @@ const Home = () => {
             </div>
             <div className="carousel-item active">
               <img
-                src={img1}
+                src="https://img.freepik.com/free-photo/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table_141793-3998.jpg?w=826&t=st=1702325602~exp=1702326202~hmac=e216e6e9436c56b9be56237104a8265cfc52501bbd616365383c8d96bbfc672a"
                 className="d-block w-100"
                 alt="..."
                 style={{ filter: "brightness(30%)" }}
@@ -68,7 +68,7 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img
-                src={img2}
+                src="https://img.freepik.com/free-photo/delicious-vietnamese-food-including-pho-ga-noodles-spring-rolls-white-table_181624-34062.jpg?size=626&ext=jpg&ga=GA1.1.983979830.1702325581&semt=ais"
                 className="d-block w-100"
                 alt="..."
                 style={{ filter: "brightness(30%)" }}
@@ -76,7 +76,7 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img
-                src={img3}
+                src="https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg?size=626&ext=jpg&ga=GA1.1.983979830.1702325581&semt=ais"
                 className="d-block w-100"
                 alt="..."
                 style={{ filter: "brightness(30%)" }}
@@ -118,7 +118,11 @@ const Home = () => {
                 <hr />
                 {foodItem && foodItem.length > 0 ? (
                   foodItem
-                    .filter((item) => (item.CategoryName === data.CategoryName) && (item.name.toLowerCase().includes(search.toLowerCase())))
+                    .filter(
+                      (item) =>
+                        item.CategoryName === data.CategoryName &&
+                        item.name.toLowerCase().includes(search.toLowerCase())
+                    )
                     .map((filterItems) => {
                       return (
                         <div
@@ -126,9 +130,8 @@ const Home = () => {
                           className="col-12 col-md-6 col-lg-3"
                         >
                           <Card
-                            foodName={filterItems.name}
+                            foodItem={filterItems}
                             options={filterItems.options[0]}
-                            imgSrc={filterItems.img}
                           />
                         </div>
                       );

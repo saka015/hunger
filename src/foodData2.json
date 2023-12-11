@@ -145,4 +145,210 @@
         ],
         "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
     }
+    ,
+    {
+        "CategoryName": "Biryani/Rice",
+        "Name": "Mutton Biryani",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 180,
+            "Full": 320
+        },
+        "Description": "Authentic Mutton Biryani with aromatic Basmati rice and a blend of traditional spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "Name": "Egg Fried Rice",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 100,
+            "Full": 180
+        },
+        "Description": "Flavorful Egg Fried Rice prepared with seasoned vegetables and Indian spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "Name": "Shrimp Biryani",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 220,
+            "Full": 380
+        },
+        "Description": "Succulent shrimp layered with fragrant Basmati rice and aromatic spices in this delightful Biryani."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "Name": "Mushroom Biryani",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 140,
+            "Full": 240
+        },
+        "Description": "A vegetarian delight, Mushroom Biryani is a blend of mushrooms, basmati rice, and exotic spices."
+    },
+    {
+        "CategoryName": "Biryani/Rice",
+        "Name": "Vegetable Pulao",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 120,
+            "Full": 200
+        },
+        "Description": "Fragrant and colorful Vegetable Pulao with a mix of seasonal vegetables and aromatic basmati rice."
+    },
+    {
+        "CategoryName": "Starter",
+        "Name": "Fish Tikka",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 190,
+            "Full": 320
+        },
+        "Description": "Marinated fish pieces grilled to perfection, a delightful starter for seafood lovers."
+    },
+    {
+        "CategoryName": "Starter",
+        "Name": "Garlic Prawns",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 160,
+            "Full": 280
+        },
+        "Description": "Juicy prawns infused with garlic flavor, a tantalizing starter for seafood enthusiasts."
+    },
+    {
+        "CategoryName": "Starter",
+        "Name": "Crispy Corn",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 90,
+            "Full": 160
+        },
+        "Description": "Crispy and spicy corn kernels, a perfect vegetarian starter for crunch lovers."
+    },
+    {
+        "CategoryName": "Starter",
+        "Name": "Chicken Wings",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 150,
+            "Full": 260
+        },
+        "Description": "Succulent chicken wings with a flavorful marinade, a classic choice for a hearty starter."
+    },
+    {
+        "CategoryName": "Starter",
+        "Name": "Bruschetta",
+        "Img": "[Image Link]",
+        "Options": {
+            "Half": 80,
+            "Full": 150
+        },
+        "Description": "Toasted bread topped with diced tomatoes, garlic, and herbs, a light and tasty Italian starter."
+    },
+    {
+        "CategoryName": "Pizza",
+        "Name": "Margherita Pizza",
+        "Img": "[Image Link]",
+        "Options": {
+            "Regular": 100,
+            "Medium": 190,
+            "Large": 300
+        },
+        "Description": "Classic Margherita pizza with tomato, mozzarella, and basil, a timeless favorite."
+    },
+    {
+        "CategoryName": "Pizza",
+        "Name": "Pepperoni Pizza",
+        "Img": "[Image Link]",
+        "Options": {
+            "Regular": 120,
+            "Medium": 220,
+            "Large": 340
+        },
+        "Description": "Savory Pepperoni Pizza with a generous topping of pepperoni slices, a meat lover's delight."
+    },
+    {
+        "CategoryName": "Pizza",
+        "Name": "Vegetarian Supreme Pizza",
+        "Img": "[Image Link]",
+        "Options": {
+            "Regular": 110,
+            "Medium": 200,
+            "Large": 320
+        },
+        "Description": "A veggie lover's dream, loaded with a variety of colorful and flavorful vegetables."
+    },
+    {
+        "CategoryName": "Pizza",
+        "Name": "BBQ Chicken Pizza",
+        "Img": "[Image Link]",
+        "Options": {
+            "Regular": 130,
+            "Medium": 240,
+            "Large": 370
+        },
+        "Description": "Smokey BBQ Chicken Pizza with tender chicken pieces and a rich barbecue sauce."
+    },
+    {
+        "CategoryName": "Pizza",
+        "Name": "Hawaiian Pizza",
+        "Img": "[Image Link]",
+        "Options": {
+            "Regular": 100,
+            "Medium": 190,
+            "Large": 300
+        },
+        "Description": "A tropical twist with ham and pineapple, creating a sweet and savory combination."
+    },
+    {
+        "CategoryName": "Dessert",
+        "Name": "Chocolate Brownie",
+        "Img": "[Image Link]",
+        "Options": {
+            "Single": 60,
+            "Double": 110
+        },
+        "Description": "Decadent chocolate brownie served warm with a scoop of vanilla ice cream, a delightful dessert."
+    },
+    {
+        "CategoryName": "Dessert",
+        "Name": "Mango Cheesecake",
+        "Img": "[Image Link]",
+        "Options": {
+            "Slice": 70,
+            "Whole": 130
+        },
+        "Description": "Creamy mango-flavored cheesecake, a refreshing and indulgent way to end your meal."
+    },
+    {
+        "CategoryName": "Dessert",
+        "Name": "Fruit Salad",
+        "Img": "[Image Link]",
+        "Options": {
+            "Small": 40,
+            "Large": 80
+        },
+        "Description": "A healthy and colorful mix of fresh fruits, a light and refreshing dessert option."
+    },
+    {
+        "CategoryName": "Dessert",
+        "Name": "Gulab Jamun",
+        "Img": "[Image Link]",
+        "Options": {
+            "Small": 50,
+            "Large": 90
+        },
+        "Description": "Soft and spongy dumplings soaked in sugar syrup, a classic Indian sweet treat."
+    },
+    {
+        "CategoryName": "Dessert",
+        "Name": "Tiramisu",
+        "Img": "[Image Link]",
+        "Options": {
+            "Slice": 80,
+            "Whole": 150
+        },
+        "Description": "Layers of coffee-soaked ladyfingers and mascarpone cream, a delightful Italian dessert."
+    }
 ]

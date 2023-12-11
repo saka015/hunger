@@ -35,10 +35,12 @@ const Login = () => {
     console.log(json);
 
     if (!json.success) {
-      alert("Enter valid credentials!");
+      alert("Check your credentials or Pls Register if not done yet...");
     }
 
     if (json.success) {
+
+      localStorage.setItem("userEmail", credentials.email);
       localStorage.setItem("authToken",json.authToken)
       console.log(localStorage.getItem("authToken"))
       navigate("/");

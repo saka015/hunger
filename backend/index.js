@@ -34,6 +34,7 @@ import express from "express";
 import connect from "./db.js";
 import createUserRouter from "./Routes/CreateUser.js";
 import displayData from "./Routes/DisplayData.js";
+import orderData from "./Routes/OrderData.js";
 
 const app = express();
 
@@ -52,6 +53,7 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use("/api", createUserRouter);
 app.use("/api", displayData);
+app.use("/api", orderData);
 
 app.listen(5000, () => {
   console.log("Server is Working");
