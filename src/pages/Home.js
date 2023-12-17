@@ -113,8 +113,8 @@ const Home = () => {
         {foodCat && foodCat.length > 0 ? (
           foodCat.map((data) => {
             return (
-              <div className="gap-3 row mb-3 " key={data._id}>
-                <div className="fs-3 m-3">{data.CategoryName}</div>
+              <div className="gap-3 mx-3 row mb-3 " key={data._id}>
+                <div className="fs-3 m-3 mx-5">{data.CategoryName}</div>
                 <hr />
                 {foodItem && foodItem.length > 0 ? (
                   foodItem
@@ -127,7 +127,7 @@ const Home = () => {
                       return (
                         <div
                           key={filterItems._id}
-                          className="col-12 col-md-6 col-lg-3"
+                          className="col-12 col-md-6 col-lg-3 mx-4" // Use Bootstrap classes for responsive layout
                         >
                           <Card
                             foodItem={filterItems}

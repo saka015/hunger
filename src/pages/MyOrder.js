@@ -149,7 +149,7 @@ export default function MyOrder() {
     <div>
       <NavbarEl />
 
-      <div className="container">
+      <div className="container mt-5">
         <div className="row">
           {orderData.length !== 0 &&
             orderData.map((data) =>
@@ -208,7 +208,7 @@ export default function MyOrder() {
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -48,6 +48,7 @@ const Card = (props) => {
   //     console.log(data);
   //   }
   // };
+  
   const handleAddToCart = async () => {
     let food = [];
     for (const item of data) {
@@ -101,7 +102,7 @@ const Card = (props) => {
 
   return (
     <div
-      className="card mt-3 bg-dark text-white"
+      className="card card-hover mt-3 bg-dark text-white"
       style={{ width: "18rem", maxHeight: "400px" }}
     >
       <img
@@ -116,7 +117,7 @@ const Card = (props) => {
 
         <div className="container w-100">
           <select
-            className="m-2 h-100 bg-success rounded"
+            className="m-2 h-100 hover bg-ssuccess rounded"
             onChange={(e) => setQty(e.target.value)}
           >
             {Array.from({ length: 6 }, (e, i) => (
@@ -127,7 +128,7 @@ const Card = (props) => {
           </select>
 
           <select
-            className="m-2 h-100 bg-success rounded"
+            className="m-2 h-100 hover bg-ssuccess rounded"
             ref={priceRef}
             onChange={(e) => setSize(e.target.value)}
           >
@@ -143,7 +144,7 @@ const Card = (props) => {
         </div>
         <hr></hr>
         <button
-          className={`btn btn-success justify-center ms-2`}
+          className={`btn border hover btn-sduccess justify-center ms-2`}
           onClick={handleAddToCart}
         >
           Add to Cart

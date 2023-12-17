@@ -16,7 +16,7 @@ const NavbarEL = () => {
     navigate("/login");
   };
   return (
-    <nav className="navbar navbar-expand-lg bg-success navbar-dark">
+    <nav className="navbar navbar-expand-lg bg-color navbar-dark">
       <div className="container-fluid">
         <Link className="navbar-brand fs-3 mb-2  fsc-italic bold" to="/">
           Hunger
@@ -57,17 +57,17 @@ const NavbarEL = () => {
 
           {!localStorage.getItem("authToken") ? (
             <div className="d-flex">
-              <Link className="btn bg-white text-success mx-1" to="/login">
+              <Link className="btn bg-wshite text-color mx-1" to="/login">
                 Login
               </Link>
-              <Link className="btn bg-white text-success mx-1" to="/createuser">
+              <Link className="btn bg-wshite text-color mx-1" to="/createuser">
                 Signup
               </Link>
             </div>
           ) : (
             <div>
               <div
-                className="btn bg-white text-success mx-2 bold"
+                className="btn bg-wshite text-color mx-2 bold"
                 onClick={() => {
                   setCartView(true);
                 }}

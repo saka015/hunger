@@ -48,7 +48,7 @@ const Login = () => {
   };
   return (
     <>
-      <div className="container mt-3">
+      <div className="container mt-3 w-75">
         <form onSubmit={handleSubmit}>
           <div className="form-group mt-3">
             <label htmlFor="exampleInputEmail1">Email address</label>
@@ -76,7 +76,7 @@ const Login = () => {
             />
           </div>
 
-          <button type="submit" className="btn btn-success m-3">
+          <button type="submit" className="btn hover btn-success m-3">
             Login
           </button>
           <Link to="/createuser">
