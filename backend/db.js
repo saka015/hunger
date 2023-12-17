@@ -26,7 +26,6 @@
 //         }
 //       })
 
-      
 //       //   console.log(global.foodapp);
 //       // }
 //     });
@@ -37,14 +36,18 @@
 
 // export default connect;
 
-
 // Bard-code
 
 import mongoose from "mongoose";
+import dotenv from "dotenv";
 
-const mongoURI =
-  // "mongodb+srv://saka015:saka123@cluster0.6y2itcv.mongodb.net/mernfoodapp?retryWrites=true&w=majority";
-  "mongodb://saka015:saka123@ac-wpd7haa-shard-00-00.6y2itcv.mongodb.net:27017,ac-wpd7haa-shard-00-01.6y2itcv.mongodb.net:27017,ac-wpd7haa-shard-00-02.6y2itcv.mongodb.net:27017/mernfoodapp?ssl=true&replicaSet=atlas-12tk4y-shard-0&authSource=admin&retryWrites=true&w=majority";
+dotenv.config();
+
+const mongoURI = process.env.DATABASE;
+
+// const mongoURI =
+//   "mongodb://saka015:saka123@ac-wpd7haa-shard-00-00.6y2itcv.mongodb.net:27017,ac-wpd7haa-shard-00-01.6y2itcv.mongodb.net:27017,ac-wpd7haa-shard-00-02.6y2itcv.mongodb.net:27017/mernfoodapp?ssl=true&replicaSet=atlas-12tk4y-shard-0&authSource=admin&retryWrites=true&w=majority";
+// "mongodb+srv://saka015:saka123@cluster0.6y2itcv.mongodb.net/mernfoodapp?retryWrites=true&w=majority";
 
 const connect = async () => {
   try {

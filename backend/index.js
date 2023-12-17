@@ -36,6 +36,7 @@ import createUserRouter from "./Routes/CreateUser.js";
 import displayData from "./Routes/DisplayData.js";
 import orderData from "./Routes/OrderData.js";
 
+
 const app = express();
 
 // Call the connect function to establish a connection to the database

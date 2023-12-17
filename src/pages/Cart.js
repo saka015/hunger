@@ -96,6 +96,7 @@ import React from "react";
 import { MdDelete } from "react-icons/md";
 import { useCart, useDispatch } from "../components/ContextReducers";
 
+
 export default function Cart() {
   // Get cart data and dispatch function from context
   let data = useCart();
